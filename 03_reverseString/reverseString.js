@@ -1,6 +1,11 @@
-const reverseString = function() {
+    const reverseString = function(string) {
+    let reverseText=string.split("").reverse().join("");
+    return reverseText;
+    };
 
-};
-
-// Do not edit below this line
-module.exports = reverseString;
+    // reverseString('hello world');
+    
+    // Do not edit below this line
+    module.exports = reverseString;
+    
+    // npm test reverseString.spec.js
